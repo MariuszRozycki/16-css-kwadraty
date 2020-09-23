@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.square {
+  width: 17vh;
+  height: 17vh;
+  background-color: #fea500;
+  margin: 15px;
+}
+
+.background {
+  padding: 20px;
+  width: 30vw;
+  background-color: #808080;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
